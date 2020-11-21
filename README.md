@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-my hw № 2
+# goit-markup-hw-01
+first homework (tech skills)

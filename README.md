@@ -1,2 +1,2 @@
 # goit-markup-hw-01
-first homework (tech skills)
+https://arina-lex-2012.github.io/goit-markup-hw-01/

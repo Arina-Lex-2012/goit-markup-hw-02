@@ -1,0 +1,101 @@
+:root {
+  --primary-text-color: #757575; /* цвет абзацев #757575 */
+  --title-text-color: #212121; /* цвет заголовков #212121 */
+  --accent-color: #2196f3; /* цвет акцента #2196F3 */
+  --primary-white-color: #ffffff; /* цвет фона, текста на темном фоне #FFFFFF 100%*/
+  --logo-color: #000000;
+  --footer-contacts-color: rgb(255, 255, 255, 0.6); /* цвет текста на темном фоне #FFFFFF 60%*/
+  --portfolio-button: #f5f4fa;
+  --secondary-bg-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* logo */
+.logo {
+  color: var(--logo-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* auth nav */
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--accent-color);
+}
+
+/* section */
+.title {
+  color: var(--title-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.footer .link {
+  color: var(--footer-contacts-color);
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* portfolio */
+.portfolio-button {
+  background-color: var(--portfolio-button);
+  color: var(--title-text-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+}
